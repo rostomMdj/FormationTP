@@ -16,7 +16,7 @@
 
   <body class="bg-[#f5f5f5] dark:bg-slate-50">
     <header
-      class="py-2 px-6 text-white bg-[#880D1E] flex justify-between h-14 items-center"
+      class="py-2 px-6 text-white bg-[#219ECC] flex justify-between h-14 items-center"
     >
       <!-- <div class="flex flex-row items-center">
         <span class="material-symbols-outlined"> smartphone </span>
@@ -33,26 +33,26 @@
     </header>
     <!--<nav class="bg-red-300 h-20">Anesrif</nav>-->
     <main class="flex">
-      <aside class="flex bg-[#880D1E] w-[10rem] h-[calc(100vh-120px)]"></aside>
+      <aside class="flex bg-[#219ECC] w-[10rem] h-[calc(100vh-120px)]"></aside>
       <section class="flex-col">
         <section class="grid grid-cols-4 ml-20 mt-3 space-x-3">
           <div
-            class="flex justify-center items-center bg-[#F26A8D] shadow-lg shadow-zinc-300 w-60 h-28 rounded-lg"
+            class="flex justify-center items-center bg-[#F44F03] shadow-lg shadow-zinc-300 w-60 h-28 rounded-lg"
           >
             <p class="text-3xl text-zinc-100">ANESRIF</p>
           </div>
           <div
-            class="flex justify-center items-center bg-[#F26A8D] shadow-lg shadow-zinc-300 w-60 h-28 rounded-lg"
+            class="flex justify-center items-center bg-[#4EC2F7] shadow-lg shadow-zinc-300 w-60 h-28 rounded-lg"
           >
             <p class="text-3xl text-zinc-100">ANESRIF</p>
           </div>
           <div
-            class="flex justify-center items-center bg-[#F49CBB] shadow-lg shadow-zinc-300 w-60 h-28 rounded-lg"
+            class="flex justify-center items-center bg-[#FF895C] shadow-lg shadow-zinc-300 w-60 h-28 rounded-lg"
           >
             <p class="text-3xl text-zinc-100">ANESRIF</p>
           </div>
           <div
-            class="flex justify-center items-center bg-[#CBEEF3] shadow-lg shadow-indigo-500/50 w-60 h-28 rounded-lg"
+            class="flex justify-center items-center bg-[#80BFDC] shadow-lg shadow-indigo-500/50 w-60 h-28 rounded-lg"
           >
             <p class="text-3xl text-zinc-100">ANESRIF</p>
           </div>
@@ -142,23 +142,11 @@
                 new Chart(document.getElementById("pie-chart"), {
                   type: "pie",
                   data: {
-                    labels: [
-                      "Africa",
-                      "Asia",
-                      "Europe",
-                      "Latin America",
-                      "North America",
-                    ],
+                    labels: ["Africa", "Europe", "Latin America"],
                     datasets: [
                       {
                         label: "Population (millions)",
-                        backgroundColor: [
-                          "#3e95cd",
-                          "#8e5ea2",
-                          "#3cba9f",
-                          "#e8c3b9",
-                          "#c45850",
-                        ],
+                        backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f"],
                         data: [2478, 5267, 734, 784, 433],
                       },
                     ],
