@@ -13,7 +13,9 @@
   </head>
 
   <body class="bg-white dark:bg-slate-50">
-    <header class="py-2 px-6 text-white bg-gray-700 flex justify-between h-14">
+    <header
+      class="py-2 px-6 text-white bg-gray-700 flex justify-between h-14 items-center"
+    >
       <div class="flex flex-row items-center">
         <span class="material-symbols-outlined"> smartphone </span>
       </div>
@@ -22,12 +24,32 @@
         <span class="material-symbols-outlined"> mail </span>
       </div>
     </header>
-    <nav class="bg-red-300 h-20">Anesrif</nav>
-
-    <h1 class="text-3xl font-bold text-teal-600">Hello world!</h1>
-    <aside class="flex bg-cyan-600">this is sidebar</aside>
-    <section></section>
-    <footer class="px-6 text-white bg-gray-700 flex justify-center">
+    <!--<nav class="bg-red-300 h-20">Anesrif</nav>-->
+    <main class="flex">
+      <aside class="flex bg-cyan-600 w-[12rem] h-[calc(100vh-120px)]">
+        this is sidebar
+      </aside>
+      <section class="flex w-full h-full justify-between items-center m-20">
+        <div
+          class="flex justify-center items-center h-16 w-10 bg-green-600 bg-cyan-500 shadow-lg shadow-cyan-500/50 w-60 h-32 rounded-lg"
+        >
+          <p class="text-3xl text-zinc-100">ANESRIF</p>
+        </div>
+        <div
+          class="flex justify-center items-center h-16 w-10 bg-slate-600 bg-blue-500 shadow-lg shadow-blue-500/50 w-60 h-32 rounded-lg"
+        >
+          <p class="text-3xl text-zinc-100">ANESRIF</p>
+        </div>
+        <div
+          class="flex justify-center items-center h-16 w-10 bg-slate-600 bg-indigo-500 shadow-lg shadow-indigo-500/50 w-60 h-32 rounded-lg"
+        >
+          <p class="text-3xl text-zinc-100">ANESRIF</p>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="px-6 text-white bg-gray-700 flex justify-center items-center h-16"
+    >
       ANESRIF 2023 TDR
     </footer>
   </body>
